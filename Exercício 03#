@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+{
+	// Informações condicionais 
+		inteiro a, b, c
+		
+	// Infomações a serem executadas pelo usuário
+		escreva("Digite o valor de a: ")
+		leia(a)
+		escreva("Digite o valor de b: ")
+		leia(b)
+
+	// Inserindo cálculos a serem executados
+		se (a == b){
+		c = a + b
+		escreva("O resultado é: ", c)
+		}senao{
+			c = a * b
+		escreva("O resultado é: ", c)
+		}		
+		
+	}
+}
